@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Vortex SMP — Serveur Minecraft</title>
+  <meta name="description" content="Commandes, soutien et boutique du serveur Minecraft Vortex SMP.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <style>
+    .server-address{display:flex;gap:10px;margin-top:-14px}.server-address div{border:1px solid #3c3655;background:#17142788;border-radius:8px;padding:8px 11px;display:grid;gap:3px}.server-address span{font-size:9px;color:#a891ff;letter-spacing:1px;font-weight:700}.server-address strong{font-size:12px;font-family:'Space Grotesk',sans-serif}@media(max-width:440px){.server-address{display:grid;gap:7px}}
+  </style>
+</head>
+<body>
+  <header class="header">
+    <a class="brand" href="#accueil"><span>✦</span> VORTEX SMP</a>
+    <nav><a href="#commandes">Commandes</a><a href="#soutenir">Soutenir</a><a href="#boutique">Boutique</a></nav>
+    <a class="discord-button" href="https://discord.gg/kvSEUnkWfq" target="_blank" rel="noreferrer">Rejoindre Discord ↗</a>
+  </header>
+
+  <main>
+    <section id="accueil" class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow">SERVEUR MINECRAFT</p>
+        <h1>Tout notre univers,<br><em>au même endroit.</em></h1>
+        <p class="lead">Découvre les commandes du serveur, soutiens la communauté et enrichis ton aventure en quelques clics.</p>
+        <div class="actions"><a class="button primary" href="https://discord.gg/kvSEUnkWfq" target="_blank" rel="noreferrer">Rejoindre Discord ↗</a><a class="button ghost" href="#commandes">Explorer les commandes ↓</a></div>
+        <div class="server-address"><div><span>JAVA</span><strong>vortexsmp.falix.gg</strong></div><div><span>BEDROCK — ADRESSE</span><strong>vortexsmp.falix.gg</strong></div><div><span>BEDROCK — PORT</span><strong>23077</strong></div></div>
+        <div class="numbers"><div><strong>Vortex SMP</strong><span>serveur Minecraft</span></div><div><strong>24/7</strong><span>en ligne</span></div><div><strong>30+</strong><span>commandes</span></div></div>
+      </div>
+      <div class="orb-wrap" aria-hidden="true"><div class="orb"><span>⛏</span></div><div class="float-card c1">🎮 <b>Bienvenue sur Vortex SMP !</b></div><div class="float-card c2">⚡ Java & Bedrock</div></div>
+    </section>
+
+    <section id="commandes" class="section">
+      <p class="eyebrow">GUIDE DU JOUEUR</p><h2>🌐 Liste des commandes du serveur</h2>
+      <p class="section-lead">Retrouve ici toutes les commandes disponibles sur Vortex SMP.</p>
+      <div class="commands-list">
+        <article class="command-category"><div class="category-head"><div class="icon purple">🌍</div><div><h3>Téléportation & déplacements</h3><p>Instantanés et gratuits</p></div></div><ul><li><code>/rtp</code><span>Ouvre le menu de téléportation aléatoire (Overworld, Nether, The End).</span></li><li><code>/spawn</code><span>Téléporte instantanément au spawn du serveur.</span></li><li><code>/home</code><span>Téléporte instantanément à ta résidence enregistrée.</span></li><li><code>/sethome</code><span>Définit un point de home.</span></li><li><code>/delhome</code><span>Supprime un point de home.</span></li><li><code>/homes</code><span>Affiche la liste de tes homes.</span></li><li><code>/tpa &lt;joueur&gt;</code><span>Envoie une demande de téléportation vers un joueur.</span></li><li><code>/tpaccept</code><span>Accepte une demande de téléportation reçue.</span></li><li><code>/tpdeny</code><span>Refuse une demande de téléportation reçue.</span></li><li><code>/warp</code><span>Ouvre ou utilise les warps du serveur.</span></li><li><code>/afk</code><span>Bascule en mode absent (AFK).</span></li></ul></article>
+        <article class="command-category"><div class="category-head"><div class="icon gold">💰</div><div><h3>Économie, boutique & commerce</h3><p>Gère ton argent et tes échanges</p></div></div><ul><li><code>/ah</code><span>Ouvre l’Hôtel des Ventes pour acheter ou vendre des objets entre joueurs.</span></li><li><code>/sell</code><span>Vend les objets tenus en main ou de l’inventaire.</span></li><li><code>/money</code><span>Affiche ton solde d’argent actuel.</span></li><li><code>/pay &lt;joueur&gt; &lt;montant&gt;</code><span>Envoie de l’argent à un autre joueur.</span></li></ul></article>
+        <article class="command-category"><div class="category-head"><div class="icon pink">⭐</div><div><h3>Shards & temps de jeu</h3><p>Gagne des shards en jouant</p></div></div><ul><li><code>/shards</code> <em>ou</em> <code>/shard</code><span>Affiche ton solde de shards, gagnées grâce au temps de jeu ou en tuant des mobs.</span></li></ul></article>
+        <article class="command-category"><div class="category-head"><div class="icon blue">👥</div><div><h3>Équipes (Teams)</h3><p>Construis ton équipe</p></div></div><ul><li><code>/team create &lt;nom&gt;</code><span>Crée une nouvelle équipe.</span></li><li><code>/team invite &lt;joueur&gt;</code><span>Invite un joueur dans ton équipe.</span></li><li><code>/team join &lt;nom&gt;</code><span>Rejoint une équipe.</span></li><li><code>/team leave</code><span>Quitte ton équipe actuelle.</span></li><li><code>/team disband</code><span>Dissout ton équipe si tu en es le propriétaire.</span></li></ul></article>
+      </div>
+    </section>
+
+    <section id="soutenir" class="support">
+      <div><p class="eyebrow">UN PETIT COUP DE POUCE</p><h2>Envie de soutenir<br>la communauté ?</h2><p>Les dons nous aident à payer l’hébergement, créer de nouveaux événements et améliorer le serveur pour tous.</p></div>
+      <form class="donation" id="donation-form"><label>Choisis un montant</label><div class="amounts"><button type="button" data-amount="2">2 €</button><button type="button" data-amount="5">5 €</button><button type="button" data-amount="10">10 €</button></div><label for="custom-amount">Ou un montant libre</label><div class="input-wrap"><input id="custom-amount" type="number" min="1" placeholder="Montant"><span>€</span></div><button class="button primary full" type="submit">Soutenir le serveur ♥</button><small>Paiement sécurisé — à connecter à Stripe ou PayPal.</small></form>
+    </section>
+
+    <section id="boutique" class="section shop"><p class="eyebrow">BOUTIQUE</p><h2>Donne un boost à ton aventure</h2><p class="section-lead">Après paiement, tes achats sont attribués automatiquement à ton compte Discord.</p><div class="shop-grid">
+      <article class="product"><div class="product-art coins">◉</div><p class="tag">MONNAIE</p><h3>100 000 pièces</h3><p>De quoi démarrer ton aventure.</p><div class="buy"><strong>2,99 €</strong><button data-product="100 000 pièces">Acheter</button></div></article>
+      <article class="product featured"><span class="popular">POPULAIRE</span><div class="product-art shards">✦</div><p class="tag">SHARDS</p><h3>500 shards</h3><p>Débloque des objets rares.</p><div class="buy"><strong>5,99 €</strong><button data-product="500 shards">Acheter</button></div></article>
+      <article class="product"><div class="product-art vip">◉</div><p class="tag">MONNAIE</p><h3>1 milliard de pièces</h3><p>Un immense boost pour ton aventure.</p><div class="buy"><strong>9,99 €</strong><button data-product="1 milliard de pièces">Acheter</button></div></article>
+    </div></section>
+  </main>
+  <footer><a class="brand" href="#accueil"><span>✦</span> VORTEX SMP</a><p>© 2026 Vortex SMP. Projet indépendant, non affilié à Mojang ou Microsoft.</p><a href="#">Conditions & confidentialité</a></footer>
+  <dialog id="modal"><button class="close" aria-label="Fermer">×</button><p class="eyebrow">BOUTIQUE</p><h2 id="modal-title">Finaliser l’achat</h2><p>La page de paiement sera ouverte ici une fois Stripe/PayPal connecté.</p><button class="button primary close-modal">Compris</button></dialog>
+  <script src="script.js"></script>
+</body>
+</html>
